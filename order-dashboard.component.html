@@ -1,0 +1,5 @@
+<app-first-five [orderList]="orderList.slice(0,5)"></app-first-five>
+<app-all-others [orderList]="orderList.slice(5)"></app-all-others>
+
+<button class="btn btn-primary mx-3" type="button" (click)="startWorkday()">Start</button>
+<button class="btn btn-primary mx-3" type="button" (click)="stopWorkday()">stopWorkday</button>
